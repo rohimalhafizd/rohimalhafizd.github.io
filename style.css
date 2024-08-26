@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .container {
     width: 800px;
     margin: 250px auto;
@@ -12,10 +13,12 @@ body {
     border-radius: 50px;
     overflow: hidden;
 }
+
 .header {
-    width : 100%;
+    width: 100%;
     background-color: green;
 }
+
 .header h1 {
     font-size: 80px;
     font-family: cursive;
@@ -25,10 +28,12 @@ body {
     font-weight: bold;
     padding: 10px;
 }
+
 ul li {
     padding: 10px 38px;
     display: inline-block;
 }
+
 ul li a {
     font-size: 30px;
     color: aqua;
@@ -37,10 +42,12 @@ ul li a {
     font-family: serif;
     font-weight: lighter;
 }
+
 ul li a:hover {
     color: blueviolet;
     background-color: blanchedalmond;
 }
+
 .foto {
     background-image: url(bg.jpg);
     background-size: cover;
@@ -51,10 +58,15 @@ ul li a:hover {
     border-top: 5px solid salmon;
     border-bottom: 5px solid green;
 }
-.isi {
-    background-color: aqua;
-    width: 100%;
+
+.inti {
+    background-color: lightblue;
 }
+.isi {
+    width: 500px;
+    float: left;
+}
+
 .isi h2 {
     font-size: 40px;
     color: rgb(123, 96, 14);
@@ -64,6 +76,7 @@ ul li a:hover {
     font-weight: bold;
     letter-spacing: 3px;
 }
+
 .isi p {
     font-size: 30px;
     font-family: serif;
@@ -73,6 +86,7 @@ ul li a:hover {
     color: darkgreen;
     padding: 10px;
 }
+
 .akhir {
     background-color: black;
     color: white;
@@ -80,12 +94,45 @@ ul li a:hover {
     text-align: center;
     padding: 10px;
 }
+
 .akhir a {
     color: white;
     text-decoration: none;
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
+
 .akhir a:hover {
     color: salmon;
     background-color: lightblue;
+}
+.clear {
+    clear: both;
+}
+.sidebar {
+    width: 250px;
+    float: right;
+}
+.sidebar h2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 3px;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+    border-radius: 100%;
+}
+.sidebar i {
+    font-size: 10px;
+    line-height: 15px;
+}
+.sidebar u {
+    color : white;
+    font-size: 20px;
 }
